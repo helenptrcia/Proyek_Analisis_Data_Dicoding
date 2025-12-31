@@ -34,8 +34,8 @@ Analisis ini difokuskan untuk menjawab pertanyaan berikut:
 ```text
 submission/
 ├── dashboard/
-│   ├── dashboard.py        # Dashboard Streamlit
-│   └── main_data.csv       # Data utama hasil penggabungan
+│   ├── dashboard.py       
+│   └── main_data.csv      
 │
 ├── data/
 │   ├── olist_orders_dataset.csv
@@ -45,30 +45,21 @@ submission/
 │   ├── olist_sellers_dataset.csv
 │   └── olist_order_reviews_dataset.csv
 │
-├── notebook.ipynb          # Notebook analisis data (sudah dijalankan)
-├── README.md               # Dokumentasi proyek
-├── requirements.txt        # Daftar library yang digunakan
-└── url.txt                 # (Opsional) Tautan dashboard jika dideploy
+├── notebook.ipynb         
+├── README.md              
+├── requirements.txt       
+└── url.txt                 
 ```
 
 ---
 
 🧪 Alur Analisis Data
-1. Gathering Data
-Memuat dataset mentah dari beberapa tabel Olist.
-2. Assessing Data
-Pemeriksaan struktur data, tipe data, missing value, dan duplikasi.
-3. Cleaning Data
-- Konversi kolom waktu ke datetime
-- Pembuatan fitur delivery_time dan is_delayed
-4. Data Preparation
-Seluruh dataset digabungkan dan disimpan sebagai main_data.csv, yang digunakan secara konsisten pada notebook dan dashboard.
-5. Exploratory Data Analysis (EDA)
-Analisis kategori produk, aktivitas seller, performa pengiriman, dan review pelanggan.
-6. Analisis Lanjutan (Non–Machine Learning)
-- RFM Analysis
-- Manual Grouping
-- Binning
+1. Gathering Data: Memuat dataset mentah dari beberapa tabel Olist.
+2. Assessing Data: Pemeriksaan struktur data, tipe data, missing value, dan duplikasi.
+3. Cleaning Data: Konversi kolom waktu ke datetime, pembuatan fitur delivery_time dan is_delayed
+4. Data Preparation: Seluruh dataset digabungkan dan disimpan sebagai main_data.csv, yang digunakan secara konsisten pada notebook dan dashboard.
+5. Exploratory Data Analysis (EDA): Analisis kategori produk, aktivitas seller, performa pengiriman, dan review pelanggan.
+6. Analisis Lanjutan: RFM Analysis, Manual Grouping, Binning
 
 ---
 
