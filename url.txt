@@ -1,0 +1,2 @@
+github: https://github.com/helenptrcia/Proyek_Analisis_Data_Dicoding
+streamlit: https://ecommerce-analysis-dashboard-helenpatricia.streamlit.app/
